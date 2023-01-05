@@ -32,6 +32,14 @@ export default function Login() {
 
       
       <Dummybttn title="Sign In"/>
+      <View style={{marginTop:20,alignItems:'center'}}>
+        <Text style={{textDecorationLine:"underline",fontSize:15}}> Forgot Password ?</Text>
+      </View>
+
+      <View style={{marginTop:20,alignItems:'flex-start'}}>
+        <Text style={{textDecorationLine:"underline",fontSize:15}}> New to Sahay ?</Text>
+      </View>
+      <Dummybttn title="Create your Account"/>
     </View>
   );
 }
@@ -72,3 +80,4 @@ const styles = StyleSheet.create({
     height: 42
   },
 });
+
